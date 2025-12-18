@@ -18,7 +18,13 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
-
+a=int(input())
+b=int(input())
+temp=b
+b=a
+a=temp
+print(a)
+print(b)
 
 
 ## RESULT:
